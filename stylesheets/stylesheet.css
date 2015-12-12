@@ -1,3 +1,4 @@
+/*original style from github theme*/
 * {
   box-sizing: border-box; }
 
@@ -243,3 +244,10 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+/*custom styles*/
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+}
