@@ -1,10 +1,9 @@
 var wagnerBowlApp = angular.module('wagnerBowlApp', []);
     
-wagnerBowlApp.controller('WagnerBowlController', function WagnerBowlController($scope) {
+wagnerBowlApp.controller('WagnerBowlController', function WagnerBowlController($scope, $http) {
         
-        $scope.creator = {
-            'name' : 'Kevin Wagner',
-            'title' : 'admin',
-            'company' : 'All District'
-        }
+$http.get('js/data.json').success(function(data) {
+    $scope.competitor = data;
+}); 
+            
     });
