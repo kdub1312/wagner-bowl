@@ -1,23 +1,12 @@
 [
         {
-            'name' : 'Kevin Wagner',
-            'title' : 'The Peoples Champion'
+            "name" : "Kevin Wagner",
+            "title" : "The Peoples Champion"
         },
         {
-            'name' : 'Carl Wagner',
-            'title' : 'Drywall Repair Specialist'
-        },
-        {
-            'name' : 'Chris Wagner',
-            'title' : 'Fast Start Late Fade'
-        },
-        {
-        'name' : 'Brett Wagner',
-            'title' : 'Occasional Champ'
-        },
-        {
-            'name' : 'Graham Akers',
-            'title' : 'Close but No Cigar'
+            "name" : "Carl Wagner",
+            "title" : "Drywall Repair Specialist"
         }
+        
 ]
             
