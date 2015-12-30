@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" ng-app="wagnerBowlApp">
   <head>
     <meta charset="UTF-8">
     <title>Wagner-bowl by kdub1312</title>
@@ -20,6 +20,10 @@
         <h3>Let's test this one more time</h3>
         <div class="box"></div>
         <p>I've added this snippet of text via git add in power shell</p>
+        <div ng-controller = "WagnerBowlController">
+            <h2>{{ creator.name }}</h2>
+            <p>{{ creator.title + ',' + creator.company}}</p>
+        </div>
       <h2 class="project-tagline">The central hub for all things wagner bowl</h2>
       <a href="https://github.com/kdub1312/wagner-bowl" class="btn">View on GitHub</a>
       <a href="https://github.com/kdub1312/wagner-bowl/zipball/master" class="btn">Download .zip</a>
