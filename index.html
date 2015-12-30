@@ -21,8 +21,14 @@
         <div class="box"></div>
         <p>I've added this snippet of text via git add in power shell</p>
         <div ng-controller = "WagnerBowlController">
-            <h2>{{ competitor.name }}</h2>
-            <p>{{ competitor.title + ',' + competitor.company}}</p>
+            <ul>
+                <li ng-repeat="person in competitors">
+                    <div>
+                        <h2>{{person.name}}</h2>
+                        <h3>{{person.title}}</h3>
+                    </div>
+                </li> 
+            </ul>
         </div>
       <h2 class="project-tagline">The central hub for all things wagner bowl</h2>
       <a href="https://github.com/kdub1312/wagner-bowl" class="btn">View on GitHub</a>
