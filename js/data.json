@@ -1,23 +1,28 @@
 [
         {
             "name" : "Kevin Wagner",
-            "title" : "The Peoples Champion"
+            "title" : "The Peoples Champion",
+            "bio" : "After bringing home the 2014 title, Kevin Wagner, aka The Peoples Champion aka a Man's Man looks to reclaim the crown in 2016."
         },
         {
             "name" : "Carl Wagner",
-            "title" : "Drywall Repair Specialist"
+            "title" : "Drywall Repair Specialist",
+            "bio" : "The grandaddy of them all, Carl Wagner, has proven he has what it takes to make his picks count. Multiple championships included the reigning shirt-holder."
         },
         {
             "name" : "Brett Wagner",
-            "title" : "Occasional Champ"
+            "title" : "Occasional Champ",
+            "bio" : "Despite all odds, this competitor has managed to capture multiple championships. While rumors of the use of a professional betting surface have swirled over ever since his first win, Brett has consistently denied the allegations, claiming they are definitely probably mostly fals."
         },
         {
             "name" : "Chris Wagner",
-            "title" : "Fast Start Late Fade"
+            "title" : "Fast Start Late Fade",
+            "bio" : "Sprinter in a marathon race."
         },
         {
             "name" : "Graham Akers",
-            "title" : "Close but No Cigar"
+            "title" : "Close but No Cigar",
+            "bio:" : "Joined as part of league expansion in 2011. Still has yet to crack the top 3."
         }
         
 ]
