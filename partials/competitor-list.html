@@ -2,7 +2,9 @@
 <ul>
     <li ng-repeat="person in competitors">
         <div>
+            <a href="#/details/{{competitors.indexOf(person)}}">
             <h2>{{person.name}}</h2>
+            </a>
             <h3>{{person.title}}</h3>
         </div>
     </li> 
