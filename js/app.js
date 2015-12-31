@@ -1,13 +1,13 @@
 var myApp = angular.module('myApp', [
     'ngRoute',
-    'artistControllers'    
+    'competitorController'    
 ]);
 
-myApp.config(['$routeProvider' function($routeProvider) {
+myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
     when('/list', {
         templateUrl: 'partials/competitor-list.html',
-        controller: 'CompetitorListController'
+        controller: 'ListController'
     }).
     otherwise({
         redirectTo: '/list'
