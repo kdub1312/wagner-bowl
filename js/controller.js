@@ -17,3 +17,12 @@ $http.get('js/data.json').success(function(data) {
 }); 
             
     }]);
+
+competitorController.controller('PicksController', ['$scope', '$http', '$routeParams', function WagnerBowlController($scope, $http, $routeParams) {
+        
+$http.get('js/data.json').success(function(data) {
+    $scope.competitors = data;
+    $scope.whichItem = $routeParams.itemId;
+}); 
+            
+    }]);
