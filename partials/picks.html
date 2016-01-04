@@ -1,12 +1,12 @@
-<section>
+<section class="picks">
 <ul>
     <li ng-repeat="games in competitors[whichItem].picks">
         <div>
-            <h1>{{$parent.name}}</h1>
-            <h2>{{games.bowl}} Bowl</h2>
-            <p>{{games.team1}} vs {{games.team2}}</p>
-            <h2>Pick: {{games.pick}}</h2>
-            <h2>Confidence Points: {{games.points}}</h2>
+            <h2 class="picks-bowl">{{games.bowl}} Bowl</h2>
+            <h4 class="picks-matchup">{{games.team1}} vs {{games.team2}}</h4>
+            <h2 class="picks-pick">Pick: {{games.pick}}</h2>
+            <h2 class="picks-confidencePoints">Confidence Points: {{games.points}}</h2>
+            <hr>
         </div>
     </li> 
 </ul>

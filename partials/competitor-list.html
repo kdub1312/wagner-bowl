@@ -1,15 +1,18 @@
 <section>
-<ul>
-    <li ng-repeat="person in competitors">
-        <div>
+<ul id="competitors-ul" class="container">
+    <li class="col-md-2" ng-repeat="person in competitors">
+        <div class="pull-left">
             <a href="#/details/{{competitors.indexOf(person)}}">
-            <h2>{{person.name}}</h2>
+            <h2 style="text-align: left;">{{person.name}}</h2>
             </a>
             <h3>{{person.title}}</h3>
             <a href="#/picks/{{competitors.indexOf(person)}}">
-            <h2>Picks</h2>
+            <h2 style="text-align: left;">Picks</h2>
+            <hr>
             </a>
-        </div>
+        </div>   
+        
     </li> 
+    
 </ul>
 </section>

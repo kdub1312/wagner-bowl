@@ -1,7 +1,6 @@
 /*original style from github theme*/
 * {
   box-sizing: border-box; }
-
 body {
   padding: 0;
   margin: 0;
@@ -11,10 +10,10 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: lightgray;/*#1e6bb8;*/
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .btn {
   display: inline-block;
@@ -251,3 +250,4 @@ a {
     background-color: grey;
 }
 }
+
