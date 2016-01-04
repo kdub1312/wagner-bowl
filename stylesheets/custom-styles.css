@@ -16,3 +16,6 @@ a {
 	border-left: 30px solid rgba(255,255,255,0.3);
     margin-top: 50%;
 }
+#picks {
+    padding-left: 0;
+}
