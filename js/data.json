@@ -2,7 +2,7 @@
         {
             "name" : "Kevin Wagner",
             "title" : "The Peoples Champion",
-            "bio" : "After bringing home the 2014 title, Kevin Wagner, aka The Peoples Champion aka a Man's Man looks to reclaim the crown in 2016.",
+            "bio" : "After bringing home the 2014 title, Kevin Wagner, aka The Peoples Champion looks to reclaim the crown in 2016.",
             "picks" : [
                 {"bowl" : "Cure", "team1" : "San Jose State", "team2" : "Georgia State", "pick" : "San Jose State", "points" : 2},
                 {"bowl" : "New Mexico", "team1" : "Arizona", "team2" : "New Mexico", "pick" : "Arizona", "points" : 3},
