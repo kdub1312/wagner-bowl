@@ -6,3 +6,13 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	
+	border-left: 30px solid rgba(255,255,255,0.3);
+    margin-top: 50%;
+}

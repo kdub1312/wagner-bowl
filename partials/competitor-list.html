@@ -2,16 +2,21 @@
 <ul id="competitors-ul" class="container">
     <li class="col-md-2" ng-repeat="person in competitors">
         <div class="pull-left">
-            <a href="#/details/{{competitors.indexOf(person)}}">
+            <!--<a href="#/details/{{competitors.indexOf(person)}}">-->
             <h2 style="text-align: left;">{{person.name}}</h2>
-            </a>
+            <!--</a>-->
             <h3>{{person.title}}</h3>
             <a href="#/picks/{{competitors.indexOf(person)}}">
             <h2 style="text-align: left;">Picks</h2>
+            
             <hr>
             </a>
         </div>   
-        
+        <div id="arrow-box" class="flex pull-right">
+            <a href="#/details/{{competitors.indexOf(person)}}">
+                <div id="list-arrow" class="arrow-right"></div>
+            </a>
+        </div>
     </li> 
     
 </ul>
