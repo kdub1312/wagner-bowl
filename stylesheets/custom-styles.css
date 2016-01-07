@@ -24,4 +24,9 @@ a {
     from    { transform:translateX(100%); }
     to      { transform: translateX(0); }
 }
- .ng-enter { animation: slideInRight 0.4s both ease-out; z-index: 8888; }
+/* slide out to the left */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+ .ng-enter { animation: slideInRight 0.4s both ease-out .4s; z-index: 8888; }
+ .ng-leave { animation: slideOutLeft 0.4s both ease-out; z-index: 9999; }
