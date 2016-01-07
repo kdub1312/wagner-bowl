@@ -1,6 +1,7 @@
 var myApp = angular.module('myApp', [
     'ngRoute',
-    'competitorController'    
+    'ngAnimate',
+    'competitorController'   
 ]);
 
 myApp.config(['$routeProvider', function($routeProvider) {

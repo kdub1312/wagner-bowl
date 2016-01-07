@@ -2,7 +2,7 @@ ul {
     list-style-type: none;
 }
 a {
-  color: lightgray;/*#1e6bb8;*/
+  color: gray;/*#1e6bb8;*/
   text-decoration: none; }
   a:hover {
     text-decoration: none; }
@@ -13,9 +13,15 @@ a {
 	border-top: 30px solid transparent;
 	border-bottom: 30px solid transparent;
 	
-	border-left: 30px solid rgba(255,255,255,0.3);
+	border-left: 30px solid rgba(195,209,214,0.5);
     margin-top: 50%;
 }
 #picks {
     padding-left: 0;
 }
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+ .ng-enter { animation: slideInRight 0.4s both ease-out; z-index: 8888; }
